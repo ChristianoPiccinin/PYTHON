@@ -8,6 +8,14 @@ Python é uma linguagem que eu gosto muito, é extremamente facil sua aprendizad
 ```
 
 ## Variaveis
+As variaveis em Python são criadas no momento que você atribui valores a ela. Também não é necessario especificar um tipo, pois são mutaveis.
+
+``` python
+  x = "Christiano"  # String
+  x = 10  # Int
+  x = 2.8 # Float
+  
+```
 
 ## Operadores
 
