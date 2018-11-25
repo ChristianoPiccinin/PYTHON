@@ -19,13 +19,56 @@ As variaveis em Python são criadas no momento que você atribui valores a ela. 
 
 ## Operadores
 
+``` python
+  x = "Christiano"  # String
+  x = 10  # Int
+  x = 2.8 # Float
+  
+```
+
 ## Condições
 
+``` python
+  x = "Christiano"  # String
+  x = 10  # Int
+  x = 2.8 # Float
+  
+```
 ## Repetições
 
+``` python
+i = 1
+while i < 6:
+  print(i)
+  i += 1
+  
+fruits = ["apple", "banana", "cherry"]
+for x in fruits:
+  print(x)
+  
+```
 ## Listas
 
-## Funções
+``` python
+thislist = ["apple", "banana", "cherry"]
+print(thislist)
 
+thislist = ["apple", "banana", "cherry"]
+print(thislist[1])
+
+```
+
+## Funções
+``` python
+def my_function():
+  print("Hello from a function")
+
+my_function()
+  
+```
 ## Módulos
 
+``` python
+
+  
+```
