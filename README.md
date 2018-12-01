@@ -17,23 +17,40 @@ As variaveis em Python são criadas no momento que você atribui valores a ela. 
   
 ```
 
+## Entrada de Dados
+Podemos receber um valor fazendo uso do comando input, esse valor será transformado em string.
+
+``` python
+a = input("Digite algo:")
+print(a)
+```
+
 ## Operadores
 
-``` python
-  x = "Christiano"  # String
-  x = 10  # Int
-  x = 2.8 # Float
-  
-```
+
 
 ## Condições
-
+### IF Simples
 ``` python
-  x = "Christiano"  # String
-  x = 10  # Int
-  x = 2.8 # Float
+if 1 > 2:
+  print("Verdadeiro")
+else:
+  print("Falso")
   
-```
+``` 
+### IF Encadeado
+``` python
+idade = 18
+if idade < 12:
+  print('criança')
+elif idade < 18:
+  print('adolescente')
+elif idade < 60:
+  print('adulto')
+else:
+  print('idoso')
+``` 
+
 ## Repetições
 
 ``` python
