@@ -13,8 +13,7 @@ As variaveis em Python são criadas no momento que você atribui valores a ela. 
 ``` python
   x = "Christiano"  # String
   x = 10  # Int
-  x = 2.8 # Float
-  
+  x = 2.8 # Float 
 ```
 
 ## Entrada de Dados
@@ -67,11 +66,20 @@ for x in fruits:
 ## Listas
 
 ``` python
+l = []  # Lista Vazia
+l = ["a",1,5.5]  # Lista com elementos
+
 thislist = ["apple", "banana", "cherry"]
 print(thislist)
 
 thislist = ["apple", "banana", "cherry"]
-print(thislist[1])
+print(thislist[1]) #Imprimer determinado elemento
+
+#adicionar elemento na lista
+thislist.append("orange")
+
+#remover elemento da lista, basta usar o comando del e passar qual a posição do elemento
+del thislist[1]
 
 ```
 
