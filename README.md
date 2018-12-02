@@ -25,7 +25,31 @@ print(a)
 ```
 
 ## Operadores
+```python
+#soma
+>>> 5+5
+10
 
+#subtração
+>>> 10-2
+8
+
+#multiplicação
+>>> 2*2
+4
+
+#divisão
+>>> 81/9
+9.0
+
+#exponenciação
+>>> 2**5
+32
+
+#extração da parte inteira da divisão
+>>> 10//9
+1
+```
 
 
 ## Condições
@@ -85,15 +109,42 @@ del thislist[1]
 
 ## Funções
 ``` python
+#cria a função
 def my_function():
   print("Hello from a function")
 
+#chama a função
 my_function()
   
 ```
-## Módulos
-
+## Bibliotecas
+## Math
+Math é uma biblioteca que contem função para fazer calculos matematicos
+https://docs.python.org/2/library/math.html
 ``` python
+import math
 
-  
+#Potencia
+>>>print(math.pow(9,5))
+59049.0
+
+#Raiz Quadrada
+>>>print(math.sqrt(25))
+5
+
+#Maior Divisor Comum
+>>>print(math.gcd(10,2))
+2
+
+#Teto
+>>>print(math.ceil(10.5))
+11
+
+#Piso
+>>>print(math.floor(10.5))
+10
+
+#Fatorial
+>>>print(math.factorial(5))
+120
 ```
