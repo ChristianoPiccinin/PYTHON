@@ -118,7 +118,7 @@ my_function()
   
 ```
 ## Bibliotecas
-## Math
+### Math
 Math é uma biblioteca que contem função para fazer calculos matematicos
 https://docs.python.org/2/library/math.html
 ``` python
